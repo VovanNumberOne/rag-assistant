@@ -1,0 +1,42 @@
+# Переменные окружения с секретами
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv/
+.venv_py311/
+
+# Логи
+logs/*
+!logs/.gitkeep
+
+# Базы данных
+*.db
+chroma_db/
+
+# Рабочие файлы
+data/*
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Тестовые файлы
+test_cache.db
+logs.txt
+установка python 3-11.txt
